@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+  --z-spotlight: 1000;
+  /* System layers */
+  --z-critical: 2000;
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+
+:root {
+  --background: #080910;
+  --foreground: #f3f1f8;
+  --surface: #11131c;
+  --surface-foreground: #f3f1f8;
+  --sidebar: #0c0e15;
+  --sidebar-foreground: #ddd9e8;
+  --card: #141620;
+  --card-foreground: #f3f1f8;
+  --popup: #191b26;
+  --popup-foreground: #f7f5fb;
+  --primary: #9a82ff;
+  --primary-foreground: #ffffff;
+  --secondary: #242637;
+  --secondary-foreground: #e9e5f4;
+  --accent: #b58cff;
+  --accent-foreground: #120d1d;
+  --muted: #1a1c26;
+  --muted-foreground: #9995a6;
+  --success: #64d7a0;
+  --success-foreground: #06160e;
+  --error: #ff718d;
+  --error-foreground: #22070d;
+  --warning: #f0bd72;
+  --warning-foreground: #211406;
+  --info: #7eb8ff;
+  --info-foreground: #07121f;
+  --info-hover: #91c2ff;
+  --info-active: #6caaff;
+  --border: #ffffff18;
+  --font-family-base: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-family-display: 'DM Serif Display', Georgia, serif;
+  --font-family-monospace: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-family-cursive: cursive;
+  --shadow: 0 12px 40px rgba(0,0,0,.28);
+  --shadow-md: 0 18px 55px rgba(0,0,0,.34);
+  --shadow-lg: 0 28px 90px rgba(0,0,0,.46);
+  --shadow-focus: 0 0 0 3px rgba(154,130,255,.18);
+  --radius-sm: 0.5rem;
+  --radius: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 999px;
+  --animation-duration-fast: 120ms;
+  --animation-duration-normal: 220ms;
+  --animation-duration-slow: 420ms;
+  --chart-color-1: #9a82ff;
+  --chart-color-2: #b58cff;
+  --chart-color-3: #64d7a0;
+  --chart-color-4: #7eb8ff;
+  --chart-color-5: #f0bd72;
+}
+
+.dark {
+  --background: #080910;
+  --foreground: #f3f1f8;
+  --surface: #11131c;
+  --surface-foreground: #f3f1f8;
+  --card: #141620;
+  --card-foreground: #f3f1f8;
+  --popup: #191b26;
+  --popup-foreground: #f7f5fb;
+  --muted: #1a1c26;
+  --muted-foreground: #9995a6;
+  --border: #ffffff18;
+}
